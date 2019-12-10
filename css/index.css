@@ -86,8 +86,8 @@ nav > a {
 .navbar{
 	font-size: 20px;
 	display: flex;
-	justify-content: space-around;
-	width: 75%;
+	justify-content: space-evenly;
+	width: 73%;
 	text-decoration: none;
 	padding-bottom: 3%;
 }
@@ -131,25 +131,28 @@ button{
 }
 .body-top-inner{
 	width: 49.5%;
-	display: inline-block;
 }
 .body-bot-inner{
-	width: 33%;
-	display:inline-block;
-	padding: 0 1px 0;
+	width: 30%;
 }
 .body-top{
 	border-top: 1px solid black;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	display: flex;
+	justify-content: space-between;
 }
-.body-img {
+
+.body-img > img {
 	width: 100%;
 }
 .body-bot{
 	border-bottom: 1px solid black;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	display: flex;
+	justify-content: space-between;
+
 }
 footer{
 	padding-top: 5%;
